@@ -722,6 +722,75 @@
         <mxCell id="BsxzwUNrjRmd50Y3IqEv-441" value="&lt;span style=&quot;color: rgb(0 , 0 , 0) ; text-align: left&quot;&gt;预加载类和资源&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#CC0000;fontColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="-631" y="-1326" width="240" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="BsxzwUNrjRmd50Y3IqEv-442" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.627;entryY=-0.06;entryDx=0;entryDy=0;entryPerimeter=0;fontColor=#FFFFFF;" edge="1" parent="1" source="BsxzwUNrjRmd50Y3IqEv-448" target="BsxzwUNrjRmd50Y3IqEv-449">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2108.5" y="-10" />
+              <mxPoint x="2016.5" y="-10" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BsxzwUNrjRmd50Y3IqEv-443" value="&lt;font style=&quot;font-size: 18px&quot; color=&quot;#330000&quot;&gt;查找&lt;/font&gt;" style="text;html=1;resizable=0;points=[];align=center;verticalAlign=middle;labelBackgroundColor=#ffffff;fontColor=#FFFFFF;" vertex="1" connectable="0" parent="BsxzwUNrjRmd50Y3IqEv-442">
+          <mxGeometry x="0.188" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BsxzwUNrjRmd50Y3IqEv-444" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#FFFFFF;" edge="1" parent="1" source="BsxzwUNrjRmd50Y3IqEv-448" target="BsxzwUNrjRmd50Y3IqEv-450">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2138.5" y="-10" />
+              <mxPoint x="2238.5" y="-10" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BsxzwUNrjRmd50Y3IqEv-445" value="&lt;font color=&quot;#330000&quot; style=&quot;font-size: 18px&quot;&gt;fork&lt;/font&gt;" style="text;html=1;resizable=0;points=[];align=center;verticalAlign=middle;labelBackgroundColor=#ffffff;fontColor=#FFFFFF;" vertex="1" connectable="0" parent="BsxzwUNrjRmd50Y3IqEv-444">
+          <mxGeometry x="-0.12" y="-3" relative="1" as="geometry">
+            <mxPoint x="9" y="-3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BsxzwUNrjRmd50Y3IqEv-446" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="BsxzwUNrjRmd50Y3IqEv-448" target="BsxzwUNrjRmd50Y3IqEv-455">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2158.5" y="-30" />
+              <mxPoint x="2768.5" y="-30" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BsxzwUNrjRmd50Y3IqEv-447" value="&lt;font style=&quot;font-size: 18px&quot;&gt;fork&lt;/font&gt;" style="text;html=1;resizable=0;points=[];align=center;verticalAlign=middle;labelBackgroundColor=#ffffff;" vertex="1" connectable="0" parent="BsxzwUNrjRmd50Y3IqEv-446">
+          <mxGeometry x="-0.6258" y="-3" relative="1" as="geometry">
+            <mxPoint x="100" y="-3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BsxzwUNrjRmd50Y3IqEv-448" value="&lt;font style=&quot;font-size: 18px&quot;&gt;zygote进程&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#CC0000;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="2028.5" y="-140" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BsxzwUNrjRmd50Y3IqEv-449" value="&lt;font style=&quot;font-size: 18px&quot;&gt;xposed模块&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#66CC00;fontColor=#330000;" vertex="1" parent="1">
+          <mxGeometry x="1928.5" y="50" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="BsxzwUNrjRmd50Y3IqEv-450" value="&lt;font style=&quot;font-size: 18px&quot;&gt;瓜子二手车进程&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#66CC00;fontColor=#330000;" vertex="1" parent="1">
+          <mxGeometry x="2168.5" y="50" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="BsxzwUNrjRmd50Y3IqEv-451" value="&lt;pre style=&quot;color: rgb(8 , 8 , 8) ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace&quot;&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0)&quot;&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;IXposedHookLoadPackage&lt;/font&gt;&lt;/span&gt;&lt;/pre&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="1838.5" y="110" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BsxzwUNrjRmd50Y3IqEv-452" value="&lt;pre style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , monospace&quot;&gt;&lt;font color=&quot;#330000&quot; style=&quot;font-size: 18px&quot;&gt;&lt;font&gt;找到所有xposed模块，对它们中的类IXposedHookLoadPackage&lt;/font&gt;进行实例化&lt;/font&gt;&lt;/pre&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="2228.5" y="-140" width="670" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="BsxzwUNrjRmd50Y3IqEv-453" value="&lt;pre style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , monospace&quot;&gt;&lt;font style=&quot;font-size: 18px&quot; color=&quot;#330000&quot;&gt;执行IXposedHookLoadPackage.handleLoadPackage()&lt;/font&gt;&lt;/pre&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="2098.5" y="110" width="500" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BsxzwUNrjRmd50Y3IqEv-454" value="&lt;font color=&quot;#330000&quot; style=&quot;font-size: 18px&quot;&gt;（fork的子进程复制zygote进程内存，得到&lt;/font&gt;&lt;span style=&quot;font-size: 18px ; color: rgb(51 , 0 , 0) ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace&quot;&gt;IXposedHookLoadPackage实例）&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="2318.5" y="20" width="380" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="BsxzwUNrjRmd50Y3IqEv-455" value="&lt;font style=&quot;font-size: 18px&quot;&gt;车好卖进程&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#66CC00;fontColor=#330000;" vertex="1" parent="1">
+          <mxGeometry x="2698.5" y="50" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="BsxzwUNrjRmd50Y3IqEv-456" value="&lt;pre style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , monospace&quot;&gt;&lt;font style=&quot;font-size: 18px&quot; color=&quot;#330000&quot;&gt;执行IXposedHookLoadPackage.handleLoadPackage()&lt;/font&gt;&lt;/pre&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="2648.5" y="120" width="500" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BsxzwUNrjRmd50Y3IqEv-457" value="&lt;font style=&quot;font-size: 18px&quot;&gt;内存是进程隔离的，&lt;span style=&quot;color: rgb(8 , 8 , 8) ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace&quot;&gt;findAndHookMethod改的是内存对象，所以各个app进程互不影响&lt;/span&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2088.5" y="190" width="750" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
