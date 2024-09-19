@@ -1,9 +1,250 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36" version="24.7.14">
   <diagram name="第 1 页" id="CGMzoV7mKaSyekTkFJoB">
-    <mxGraphModel>
+    <mxGraphModel dx="2295" dy="803" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="XN9mA_fsYp3CZzebEcop-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="XN9mA_fsYp3CZzebEcop-2" target="XN9mA_fsYp3CZzebEcop-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XN9mA_fsYp3CZzebEcop-2" value="&lt;div style=&quot;text-align: left&quot;&gt;main()&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;fillColor=#66CC00;" vertex="1" parent="1">
+          <mxGeometry x="40" y="630" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="XN9mA_fsYp3CZzebEcop-3" value="&lt;span style=&quot;font-size: 18px&quot;&gt;ActivityThread&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="289" y="640" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="XN9mA_fsYp3CZzebEcop-4" value="&lt;span style=&quot;font-size: 18px&quot;&gt;ActivityThread&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-226" y="713.5" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="XN9mA_fsYp3CZzebEcop-5" value="" style="endArrow=none;dashed=1;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-75" y="723" as="sourcePoint" />
+            <mxPoint x="-25" y="723" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XN9mA_fsYp3CZzebEcop-6" value="&lt;div&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;attachApplication(ApplicationThread）&lt;/font&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#66CC00;" vertex="1" parent="1">
+          <mxGeometry y="703.5" width="320" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="XN9mA_fsYp3CZzebEcop-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="XN9mA_fsYp3CZzebEcop-8" target="XN9mA_fsYp3CZzebEcop-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XN9mA_fsYp3CZzebEcop-8" value="&lt;font style=&quot;font-size: 18px&quot;&gt;handleBindApplication(AppBindData)&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#66CC00;" vertex="1" parent="1">
+          <mxGeometry x="5.5" y="988.5" width="308" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="XN9mA_fsYp3CZzebEcop-9" value="&lt;font style=&quot;font-size: 18px&quot;&gt;onCreate()&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#66CC00;" vertex="1" parent="1">
+          <mxGeometry x="39.5" y="1055" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="XN9mA_fsYp3CZzebEcop-10" value="&lt;font style=&quot;font-size: 18px&quot;&gt;Application&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-148.5" y="1067.5" width="125" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="XN9mA_fsYp3CZzebEcop-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="XN9mA_fsYp3CZzebEcop-13" target="XN9mA_fsYp3CZzebEcop-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XN9mA_fsYp3CZzebEcop-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startSize=5;" edge="1" parent="1" source="XN9mA_fsYp3CZzebEcop-13" target="XN9mA_fsYp3CZzebEcop-45">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="160" y="877.5" />
+              <mxPoint x="559" y="877.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XN9mA_fsYp3CZzebEcop-13" value="&lt;span style=&quot;font-size: 18px&quot;&gt;attachApplication(&lt;/span&gt;&lt;span style=&quot;font-size: 18px&quot;&gt;ApplicationThread&lt;/span&gt;&lt;span style=&quot;font-size: 18px&quot;&gt;）&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;fillColor=#007FFF;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="-0.5" y="817.5" width="320" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="XN9mA_fsYp3CZzebEcop-14" value="&lt;span style=&quot;font-size: 18px&quot;&gt;ActivityManagerService&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-359" y="827.5" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="XN9mA_fsYp3CZzebEcop-15" value="" style="shape=flexArrow;endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="159" y="743.5" as="sourcePoint" />
+            <mxPoint x="159" y="819.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XN9mA_fsYp3CZzebEcop-16" value="&lt;font style=&quot;font-size: 18px&quot;&gt;binder远程调用&lt;br&gt;把app进程中的ApplicationThread(它是远程调用守护程序)传给&lt;br&gt;system_server，供system_server远程控制app进程&lt;br&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="178" y="754" width="622" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="XN9mA_fsYp3CZzebEcop-17" value="&lt;font style=&quot;font-size: 18px&quot;&gt;&lt;span style=&quot;text-align: left ; white-space: nowrap&quot;&gt;&lt;font&gt;bindApplication(&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , monospace&quot;&gt;ApplicationInfo&lt;/span&gt;&lt;span style=&quot;text-align: left ; white-space: nowrap&quot;&gt;)&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FFFFFF;fillColor=#007FFF;" vertex="1" parent="1">
+          <mxGeometry x="2.5" y="903" width="314" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="XN9mA_fsYp3CZzebEcop-18" value="&lt;span style=&quot;font-size: 18px&quot;&gt;IApplicationThread&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-186" y="911.5" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="XN9mA_fsYp3CZzebEcop-19" value="&lt;span style=&quot;font-size: 18px&quot;&gt;ActivityThread&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="500" y="335" width="220" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="XN9mA_fsYp3CZzebEcop-20" value="&lt;pre style=&quot;color: rgb(8 , 8 , 8) ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;&lt;span style=&quot;color: #000000&quot;&gt;ApplicationInfo&lt;/span&gt;包含包名, apk路径等&lt;/pre&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-91.5" y="948" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XN9mA_fsYp3CZzebEcop-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="XN9mA_fsYp3CZzebEcop-22" target="XN9mA_fsYp3CZzebEcop-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XN9mA_fsYp3CZzebEcop-22" value="&lt;font style=&quot;font-size: 18px&quot;&gt;runSelctLoop&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FFFFFF;fillColor=#CC0000;" vertex="1" parent="1">
+          <mxGeometry x="39" y="484.5" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="XN9mA_fsYp3CZzebEcop-23" value="&lt;font style=&quot;font-size: 18px&quot;&gt;监听到启动app的scoket请求&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-146" y="524.5" width="255" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="XN9mA_fsYp3CZzebEcop-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startSize=5;" edge="1" parent="1" source="XN9mA_fsYp3CZzebEcop-25" target="XN9mA_fsYp3CZzebEcop-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XN9mA_fsYp3CZzebEcop-25" value="&lt;font style=&quot;font-size: 18px&quot;&gt;fork&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FFFFFF;fillColor=#CC0000;" vertex="1" parent="1">
+          <mxGeometry x="39" y="555" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="XN9mA_fsYp3CZzebEcop-26" value="&lt;font style=&quot;font-size: 18px&quot;&gt;binder远程调用&lt;/font&gt;" style="text;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180.5" y="944.5" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XN9mA_fsYp3CZzebEcop-27" value="" style="endArrow=none;dashed=1;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-19.5" y="1075" as="sourcePoint" />
+            <mxPoint x="30.5" y="1075" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="17" y="1075" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XN9mA_fsYp3CZzebEcop-28" value="&lt;span style=&quot;font-size: 18px&quot;&gt;用户点击桌面上的应用图标（桌面也是一个app）&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="4.5" y="86" width="222" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="XN9mA_fsYp3CZzebEcop-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="XN9mA_fsYp3CZzebEcop-30" target="XN9mA_fsYp3CZzebEcop-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XN9mA_fsYp3CZzebEcop-30" value="&lt;font style=&quot;font-size: 18px&quot;&gt;launcher(桌面)&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFF33;" vertex="1" parent="1">
+          <mxGeometry x="42" y="151.5" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="XN9mA_fsYp3CZzebEcop-31" value="" style="shape=flexArrow;endArrow=classic;html=1;endWidth=14;endSize=5;startSize=5;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="162" y="251.5" as="sourcePoint" />
+            <mxPoint x="162" y="285" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XN9mA_fsYp3CZzebEcop-32" value="&lt;span style=&quot;font-size: 18px&quot;&gt;binder远程调用&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="189" y="251.5" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="XN9mA_fsYp3CZzebEcop-33" value="&lt;font style=&quot;font-size: 18px&quot; color=&quot;#ffffff&quot;&gt;system_server进程&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#007FFF;" vertex="1" parent="1">
+          <mxGeometry x="-100" y="290" width="126" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="XN9mA_fsYp3CZzebEcop-34" value="&lt;span style=&quot;text-align: left ; white-space: nowrap&quot;&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;startActivity()&lt;/font&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFF33;" vertex="1" parent="1">
+          <mxGeometry x="42" y="211.5" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="XN9mA_fsYp3CZzebEcop-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startSize=5;" edge="1" parent="1" source="XN9mA_fsYp3CZzebEcop-36" target="XN9mA_fsYp3CZzebEcop-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XN9mA_fsYp3CZzebEcop-36" value="&lt;span style=&quot;text-align: left ; white-space: nowrap&quot;&gt;&lt;font color=&quot;#ffffff&quot; style=&quot;font-size: 18px&quot;&gt;startActivity()&lt;/font&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#007FFF;" vertex="1" parent="1">
+          <mxGeometry x="42" y="285" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="XN9mA_fsYp3CZzebEcop-37" value="&lt;font style=&quot;font-size: 18px&quot;&gt;launcher进程&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFF33;" vertex="1" parent="1">
+          <mxGeometry x="-100" y="160" width="126" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="XN9mA_fsYp3CZzebEcop-38" value="&lt;span style=&quot;white-space: normal&quot;&gt;&lt;font color=&quot;#ffffff&quot; style=&quot;font-size: 18px&quot;&gt;app进程已经启动？&lt;/font&gt;&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#007FFF;strokeColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="55" y="346.5" width="213" height="74" as="geometry" />
+        </mxCell>
+        <mxCell id="XN9mA_fsYp3CZzebEcop-39" value="&lt;font style=&quot;font-size: 18px&quot;&gt;socket连接&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="42" y="445" width="98" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="XN9mA_fsYp3CZzebEcop-40" value="&lt;span style=&quot;text-align: left ; white-space: nowrap&quot;&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;ActivityTaskManagerService&lt;/font&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="302" y="295" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="XN9mA_fsYp3CZzebEcop-41" value="&lt;span style=&quot;font-size: 18px ; white-space: normal&quot;&gt;父进程Zygote&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#CC0000;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="-110" y="490" width="126" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="XN9mA_fsYp3CZzebEcop-42" value="&lt;span style=&quot;font-size: 18px ; white-space: normal&quot;&gt;app进程&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#66CC00;" vertex="1" parent="1">
+          <mxGeometry x="-83.5" y="636" width="89" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="XN9mA_fsYp3CZzebEcop-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XN9mA_fsYp3CZzebEcop-45">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="559" y="1007.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XN9mA_fsYp3CZzebEcop-44" value="&lt;font style=&quot;font-size: 18px&quot;&gt;是&lt;/font&gt;" style="text;html=1;resizable=0;points=[];align=center;verticalAlign=middle;labelBackgroundColor=#ffffff;" vertex="1" connectable="0" parent="XN9mA_fsYp3CZzebEcop-43">
+          <mxGeometry x="0.2661" y="-2" relative="1" as="geometry">
+            <mxPoint x="2" y="-12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XN9mA_fsYp3CZzebEcop-45" value="&lt;span style=&quot;white-space: normal&quot;&gt;&lt;font color=&quot;#ffffff&quot; style=&quot;font-size: 18px&quot;&gt;app进程已经启动？&lt;/font&gt;&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#007FFF;strokeColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="452.5" y="889" width="213" height="74" as="geometry" />
+        </mxCell>
+        <mxCell id="XN9mA_fsYp3CZzebEcop-46" value="&lt;span style=&quot;font-size: 18px ; white-space: normal&quot;&gt;父进程Zygote&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#CC0000;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="-386" y="171.5" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="XN9mA_fsYp3CZzebEcop-47" value="&lt;font style=&quot;font-size: 18px&quot; color=&quot;#ffffff&quot;&gt;system_server进程&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#007FFF;" vertex="1" parent="1">
+          <mxGeometry x="-386" y="115" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="XN9mA_fsYp3CZzebEcop-48" value="&lt;span style=&quot;font-size: 18px ; white-space: normal&quot;&gt;app进程&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#66CC00;" vertex="1" parent="1">
+          <mxGeometry x="-386" y="225" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="XN9mA_fsYp3CZzebEcop-49" value="" style="shape=flexArrow;endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="161" y="419" as="sourcePoint" />
+            <mxPoint x="161" y="486" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XN9mA_fsYp3CZzebEcop-50" value="&lt;font style=&quot;font-size: 18px&quot;&gt;否&lt;/font&gt;" style="text;html=1;resizable=0;points=[];align=center;verticalAlign=middle;labelBackgroundColor=#ffffff;" vertex="1" connectable="0" parent="XN9mA_fsYp3CZzebEcop-49">
+          <mxGeometry x="-0.2715" y="-2" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XN9mA_fsYp3CZzebEcop-51" value="" style="shape=flexArrow;endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="158" y="943" as="sourcePoint" />
+            <mxPoint x="158" y="987.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XN9mA_fsYp3CZzebEcop-52" value="" style="shape=flexArrow;endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="268" y="383.5" as="sourcePoint" />
+            <mxPoint x="411.5" y="384" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XN9mA_fsYp3CZzebEcop-53" value="&lt;font style=&quot;font-size: 18px&quot;&gt;是&lt;/font&gt;" style="text;html=1;resizable=0;points=[];align=center;verticalAlign=middle;labelBackgroundColor=#ffffff;" vertex="1" connectable="0" parent="XN9mA_fsYp3CZzebEcop-52">
+          <mxGeometry x="-0.2715" y="-2" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XN9mA_fsYp3CZzebEcop-54" value="&lt;font style=&quot;font-size: 18px&quot;&gt;binder远程调用&lt;/font&gt;" style="text;html=1;" vertex="1" parent="1">
+          <mxGeometry x="279" y="340" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XN9mA_fsYp3CZzebEcop-55" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;font-size: 18px ; white-space: nowrap&quot;&gt;performLaunchActivity&lt;/span&gt;&lt;span style=&quot;font-size: 18px ; white-space: nowrap&quot;&gt;()&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#66CC00;" vertex="1" parent="1">
+          <mxGeometry x="417" y="359" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="XN9mA_fsYp3CZzebEcop-56" value="&lt;span style=&quot;font-size: 18px ; white-space: normal&quot;&gt;app进程&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#66CC00;" vertex="1" parent="1">
+          <mxGeometry x="681" y="359" width="104" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="XN9mA_fsYp3CZzebEcop-57" value="&lt;span style=&quot;font-size: 18px&quot;&gt;ActivityThread&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-275.5" y="998" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="XN9mA_fsYp3CZzebEcop-58" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;font-size: 18px ; white-space: nowrap&quot;&gt;performLaunchActivity&lt;/span&gt;&lt;span style=&quot;font-size: 18px ; white-space: nowrap&quot;&gt;()&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#66CC00;" vertex="1" parent="1">
+          <mxGeometry x="439" y="1008" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="XN9mA_fsYp3CZzebEcop-59" value="&lt;span style=&quot;font-size: 18px ; white-space: normal&quot;&gt;launcher进程&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFF33;" vertex="1" parent="1">
+          <mxGeometry x="-386" y="59" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="XN9mA_fsYp3CZzebEcop-60" value="&lt;font color=&quot;#ffffff&quot;&gt;‘&lt;/font&gt;" style="text;html=1;resizable=0;points=[];autosize=1;align=left;verticalAlign=top;spacingTop=-4;" vertex="1" parent="1">
+          <mxGeometry x="-447" y="21" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="XN9mA_fsYp3CZzebEcop-61" value="&lt;font color=&quot;#ffffff&quot;&gt;’&lt;/font&gt;" style="text;html=1;resizable=0;points=[];autosize=1;align=left;verticalAlign=top;spacingTop=-4;" vertex="1" parent="1">
+          <mxGeometry x="-369" y="38" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="XN9mA_fsYp3CZzebEcop-62" value="&lt;font style=&quot;font-size: 18px&quot;&gt;binder远程调用&lt;/font&gt;" style="text;html=1;" vertex="1" parent="1">
+          <mxGeometry x="581.5" y="963" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XN9mA_fsYp3CZzebEcop-63" value="&lt;span style=&quot;font-size: 18px&quot;&gt;ActivityThread&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="690" y="1018.5" width="190" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="XN9mA_fsYp3CZzebEcop-64" value="&lt;font style=&quot;font-size: 18px&quot; color=&quot;#ffffff&quot;&gt;system_server进程&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#007FFF;" vertex="1" parent="1">
+          <mxGeometry x="-150" y="817.5" width="131" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="XN9mA_fsYp3CZzebEcop-65" value="&lt;span style=&quot;font-size: 18px&quot;&gt;fork - 孵化出app进程&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="170" y="602.5" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="XN9mA_fsYp3CZzebEcop-66" value="&lt;span style=&quot;font-size: 18px ; white-space: normal&quot;&gt;app进程&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#66CC00;" vertex="1" parent="1">
+          <mxGeometry x="-113" y="994.5" width="86" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XN9mA_fsYp3CZzebEcop-67" value="&lt;font style=&quot;font-size: 18px&quot;&gt;生成activity, 执行activity的生命周期函数，如onCreate()，onStart()，onResume()&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="410" y="399" width="343" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="XN9mA_fsYp3CZzebEcop-68" value="&lt;font style=&quot;font-size: 18px&quot;&gt;生成activity, 执行activity的生命周期函数，如onCreate()，onStart()，onResume()&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="410" y="1047.5" width="343" height="70" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
