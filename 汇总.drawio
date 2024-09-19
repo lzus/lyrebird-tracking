@@ -1089,6 +1089,144 @@
         <mxCell id="BsxzwUNrjRmd50Y3IqEv-545" value="‘" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="-2005" y="1555" width="40" height="20" as="geometry" />
         </mxCell>
+        <mxCell id="BsxzwUNrjRmd50Y3IqEv-546" value="&lt;span style=&quot;color: rgb(79 , 79 , 79) ; font-family: &amp;#34;source code pro&amp;#34; , &amp;#34;dejavu sans mono&amp;#34; , &amp;#34;ubuntu mono&amp;#34; , &amp;#34;anonymous pro&amp;#34; , &amp;#34;droid sans mono&amp;#34; , &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;consolas&amp;#34; , &amp;#34;inconsolata&amp;#34; , &amp;#34;courier&amp;#34; , monospace , &amp;#34;pingfang sc&amp;#34; , &amp;#34;microsoft yahei&amp;#34; , sans-serif ; font-size: 14px ; white-space: pre ; background-color: rgb(246 , 248 , 250)&quot;&gt;javaReflectedMethod&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-2310" y="2000" width="200" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="BsxzwUNrjRmd50Y3IqEv-547" value="ArtMethod&lt;br&gt;(nativepoiter&lt;br&gt;)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-2040" y="2005" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BsxzwUNrjRmd50Y3IqEv-548" value="" style="endArrow=none;dashed=1;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-2060" y="2350" as="sourcePoint" />
+            <mxPoint x="-2060" y="1900" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BsxzwUNrjRmd50Y3IqEv-549" value="内存复制得到backup_ArtMethod" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1710" y="1955" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BsxzwUNrjRmd50Y3IqEv-550" value="&lt;span style=&quot;color: rgb(79 , 79 , 79) ; font-family: &amp;#34;source code pro&amp;#34; , &amp;#34;dejavu sans mono&amp;#34; , &amp;#34;ubuntu mono&amp;#34; , &amp;#34;anonymous pro&amp;#34; , &amp;#34;droid sans mono&amp;#34; , &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;consolas&amp;#34; , &amp;#34;inconsolata&amp;#34; , &amp;#34;courier&amp;#34; , monospace , &amp;#34;pingfang sc&amp;#34; , &amp;#34;microsoft yahei&amp;#34; , sans-serif ; font-size: 14px ; white-space: pre ; background-color: rgb(246 , 248 , 250)&quot;&gt;生成backup_ArtMethod的reflect_method&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1710" y="2040" width="330" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BsxzwUNrjRmd50Y3IqEv-551" value="" style="shape=flexArrow;endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-1870" y="2035" as="sourcePoint" />
+            <mxPoint x="-1780" y="2035" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BsxzwUNrjRmd50Y3IqEv-552" value="&lt;span style=&quot;color: rgb(0 , 102 , 102) ; font-family: &amp;#34;source code pro&amp;#34; , &amp;#34;dejavu sans mono&amp;#34; , &amp;#34;ubuntu mono&amp;#34; , &amp;#34;anonymous pro&amp;#34; , &amp;#34;droid sans mono&amp;#34; , &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;consolas&amp;#34; , &amp;#34;inconsolata&amp;#34; , &amp;#34;courier&amp;#34; , monospace , &amp;#34;pingfang sc&amp;#34; , &amp;#34;microsoft yahei&amp;#34; , sans-serif ; font-size: 14px ; white-space: pre ; background-color: rgb(246 , 248 , 250)&quot;&gt;EnableXposedHook&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1910" y="1995" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="BsxzwUNrjRmd50Y3IqEv-553" value="&lt;span style=&quot;color: rgb(79 , 79 , 79) ; font-family: &amp;#34;source code pro&amp;#34; , &amp;#34;dejavu sans mono&amp;#34; , &amp;#34;ubuntu mono&amp;#34; , &amp;#34;anonymous pro&amp;#34; , &amp;#34;droid sans mono&amp;#34; , &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;consolas&amp;#34; , &amp;#34;inconsolata&amp;#34; , &amp;#34;courier&amp;#34; , monospace , &amp;#34;pingfang sc&amp;#34; , &amp;#34;microsoft yahei&amp;#34; , sans-serif ; font-size: 14px ; white-space: pre ; background-color: rgb(246 , 248 , 250)&quot;&gt;生成hookinfo对象&lt;br/&gt;XposedHookInfo&lt;br&gt;(&lt;/span&gt;&lt;span style=&quot;color: rgb(79 , 79 , 79) ; font-family: &amp;#34;source code pro&amp;#34; , &amp;#34;dejavu sans mono&amp;#34; , &amp;#34;ubuntu mono&amp;#34; , &amp;#34;anonymous pro&amp;#34; , &amp;#34;droid sans mono&amp;#34; , &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;consolas&amp;#34; , &amp;#34;inconsolata&amp;#34; , &amp;#34;courier&amp;#34; , monospace , &amp;#34;pingfang sc&amp;#34; , &amp;#34;microsoft yahei&amp;#34; , sans-serif ; font-size: 14px ; white-space: pre ; background-color: rgb(246 , 248 , 250)&quot;&gt;reflectedMethod&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(79 , 79 , 79) ; font-family: &amp;#34;source code pro&amp;#34; , &amp;#34;dejavu sans mono&amp;#34; , &amp;#34;ubuntu mono&amp;#34; , &amp;#34;anonymous pro&amp;#34; , &amp;#34;droid sans mono&amp;#34; , &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;consolas&amp;#34; , &amp;#34;inconsolata&amp;#34; , &amp;#34;courier&amp;#34; , monospace , &amp;#34;pingfang sc&amp;#34; , &amp;#34;microsoft yahei&amp;#34; , sans-serif ; font-size: 14px ; white-space: pre ; background-color: rgb(246 , 248 , 250)&quot;&gt;additionalInfo&lt;/span&gt;&lt;span style=&quot;color: rgb(79 , 79 , 79) ; font-family: &amp;#34;source code pro&amp;#34; , &amp;#34;dejavu sans mono&amp;#34; , &amp;#34;ubuntu mono&amp;#34; , &amp;#34;anonymous pro&amp;#34; , &amp;#34;droid sans mono&amp;#34; , &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;consolas&amp;#34; , &amp;#34;inconsolata&amp;#34; , &amp;#34;courier&amp;#34; , monospace , &amp;#34;pingfang sc&amp;#34; , &amp;#34;microsoft yahei&amp;#34; , sans-serif ; font-size: 14px ; white-space: pre ; background-color: rgb(246 , 248 , 250)&quot;&gt;&lt;br&gt;&lt;/span&gt;backup_ArtMethod&lt;span style=&quot;color: rgb(79 , 79 , 79) ; font-family: &amp;#34;source code pro&amp;#34; , &amp;#34;dejavu sans mono&amp;#34; , &amp;#34;ubuntu mono&amp;#34; , &amp;#34;anonymous pro&amp;#34; , &amp;#34;droid sans mono&amp;#34; , &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;consolas&amp;#34; , &amp;#34;inconsolata&amp;#34; , &amp;#34;courier&amp;#34; , monospace , &amp;#34;pingfang sc&amp;#34; , &amp;#34;microsoft yahei&amp;#34; , sans-serif ; font-size: 14px ; white-space: pre ; background-color: rgb(246 , 248 , 250)&quot;&gt;&lt;br&gt;)&lt;br&gt;&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1710" y="2110" width="280" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="BsxzwUNrjRmd50Y3IqEv-554" value="" style="endArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="BsxzwUNrjRmd50Y3IqEv-547" target="BsxzwUNrjRmd50Y3IqEv-553">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-1910" y="2160" as="sourcePoint" />
+            <mxPoint x="-1790" y="2120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BsxzwUNrjRmd50Y3IqEv-555" value="nativepoiter指向hookinnfo" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1880" y="2070" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BsxzwUNrjRmd50Y3IqEv-556" value="" style="curved=1;endArrow=classic;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="BsxzwUNrjRmd50Y3IqEv-550" target="BsxzwUNrjRmd50Y3IqEv-549">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-1300" y="2070" as="sourcePoint" />
+            <mxPoint x="-1250" y="2020" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-1250" y="2070" />
+              <mxPoint x="-1300" y="2020" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BsxzwUNrjRmd50Y3IqEv-557" value="&lt;pre style=&quot;color: rgb(8 , 8 , 8) ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;汇编方法art_quick_proxy_invoke_handler&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1700" y="2240" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BsxzwUNrjRmd50Y3IqEv-558" value="nativepoiter指向hanndler" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1900" y="2190" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BsxzwUNrjRmd50Y3IqEv-559" value="" style="endArrow=classic;html=1;entryX=-0.019;entryY=0.1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="BsxzwUNrjRmd50Y3IqEv-557">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-1920" y="2070" as="sourcePoint" />
+            <mxPoint x="-1900" y="2160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BsxzwUNrjRmd50Y3IqEv-560" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="BsxzwUNrjRmd50Y3IqEv-561" target="BsxzwUNrjRmd50Y3IqEv-563">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BsxzwUNrjRmd50Y3IqEv-561" value="&lt;pre style=&quot;color: rgb(8 , 8 , 8) ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;汇编方法art_quick_proxy_invoke_handler&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-2050" y="2340" width="290" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BsxzwUNrjRmd50Y3IqEv-562" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="BsxzwUNrjRmd50Y3IqEv-563" target="BsxzwUNrjRmd50Y3IqEv-565">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BsxzwUNrjRmd50Y3IqEv-563" value="&lt;pre style=&quot;color: rgb(8 , 8 , 8) ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;c++方法artQuickProxyInvokeHandler&lt;/pre&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1690" y="2340" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BsxzwUNrjRmd50Y3IqEv-564" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="BsxzwUNrjRmd50Y3IqEv-565" target="BsxzwUNrjRmd50Y3IqEv-567">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BsxzwUNrjRmd50Y3IqEv-565" value="&lt;pre style=&quot;color: rgb(8 , 8 , 8) ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;c++方法 InvokeXposedHandleHookedMethod&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1700" y="2475" width="330" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BsxzwUNrjRmd50Y3IqEv-566" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.418;entryY=0.008;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="BsxzwUNrjRmd50Y3IqEv-567" target="BsxzwUNrjRmd50Y3IqEv-573">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BsxzwUNrjRmd50Y3IqEv-567" value="&lt;pre style=&quot;color: rgb(8 , 8 , 8) ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;c++方法CallStaticObjectMethodA&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1690" y="2590" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BsxzwUNrjRmd50Y3IqEv-568" value="" style="endArrow=none;dashed=1;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-2020" y="2320" as="sourcePoint" />
+            <mxPoint x="-1330" y="2320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BsxzwUNrjRmd50Y3IqEv-569" value="调用时进入汇编方法：" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-2030" y="2300" width="170" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="BsxzwUNrjRmd50Y3IqEv-570" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.573;entryY=-0.042;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="BsxzwUNrjRmd50Y3IqEv-573" target="BsxzwUNrjRmd50Y3IqEv-577">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BsxzwUNrjRmd50Y3IqEv-571" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BsxzwUNrjRmd50Y3IqEv-573">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1527.5" y="2810" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BsxzwUNrjRmd50Y3IqEv-572" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.528;entryY=-0.008;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="BsxzwUNrjRmd50Y3IqEv-573" target="BsxzwUNrjRmd50Y3IqEv-578">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BsxzwUNrjRmd50Y3IqEv-573" value="&lt;pre style=&quot;color: rgb(8 , 8 , 8) ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;java方法XposedBridge.handleHookedMethod&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1695" y="2690" width="335" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BsxzwUNrjRmd50Y3IqEv-574" value="&lt;pre style=&quot;color: rgb(8 , 8 , 8) ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;使用hookinfo对象&lt;/pre&gt;&lt;pre style=&quot;color: rgb(8 , 8 , 8) ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;invocation_args[&lt;span style=&quot;color: #1750eb&quot;&gt;0&lt;/span&gt;].l = hook_info-&amp;gt;reflected_method;&lt;br&gt;invocation_args[&lt;span style=&quot;color: #1750eb&quot;&gt;1&lt;/span&gt;].i = &lt;span style=&quot;color: #1750eb&quot;&gt;1&lt;/span&gt;;&lt;br&gt;invocation_args[&lt;span style=&quot;color: #1750eb&quot;&gt;2&lt;/span&gt;].l = hook_info-&amp;gt;additional_info;&lt;br&gt;invocation_args[&lt;span style=&quot;color: #1750eb&quot;&gt;3&lt;/span&gt;].l = rcvr_jobj;&lt;br&gt;invocation_args[&lt;span style=&quot;color: #1750eb&quot;&gt;4&lt;/span&gt;].l = args_jobj;&lt;/pre&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1360" y="2450" width="420" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="BsxzwUNrjRmd50Y3IqEv-575" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="BsxzwUNrjRmd50Y3IqEv-576" target="BsxzwUNrjRmd50Y3IqEv-580">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BsxzwUNrjRmd50Y3IqEv-576" value="&lt;pre style=&quot;color: rgb(8 , 8 , 8) ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;java方法invokeOriginalMethodNative(reflected_method)&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1755" y="2820" width="425" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BsxzwUNrjRmd50Y3IqEv-577" value="&lt;pre style=&quot;color: rgb(8 , 8 , 8) ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;java方法before&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-2130" y="2820" width="335" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BsxzwUNrjRmd50Y3IqEv-578" value="&lt;pre style=&quot;color: rgb(8 , 8 , 8) ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;java方法after&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1260" y="2820" width="335" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BsxzwUNrjRmd50Y3IqEv-579" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.396;entryY=-0.043;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="BsxzwUNrjRmd50Y3IqEv-580" target="BsxzwUNrjRmd50Y3IqEv-581">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BsxzwUNrjRmd50Y3IqEv-580" value="&lt;pre style=&quot;color: rgb(8 , 8 , 8) ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;c++方法&lt;span style=&quot;color: rgb(79 , 79 , 79) ; font-family: &amp;#34;source code pro&amp;#34; , &amp;#34;dejavu sans mono&amp;#34; , &amp;#34;ubuntu mono&amp;#34; , &amp;#34;anonymous pro&amp;#34; , &amp;#34;droid sans mono&amp;#34; , &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;consolas&amp;#34; , &amp;#34;inconsolata&amp;#34; , &amp;#34;courier&amp;#34; , monospace , &amp;#34;pingfang sc&amp;#34; , &amp;#34;microsoft yahei&amp;#34; , sans-serif ; font-size: 14px ; background-color: rgb(246 , 248 , 250)&quot;&gt;XposedBridge_invokeOriginalMethodNative&lt;/span&gt;(reflected_method)&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1757" y="2940" width="588" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="BsxzwUNrjRmd50Y3IqEv-581" value="&lt;pre style=&quot;color: rgb(8 , 8 , 8) ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;&lt;span style=&quot;color: rgb(79 , 79 , 79) ; font-family: &amp;#34;source code pro&amp;#34; , &amp;#34;dejavu sans mono&amp;#34; , &amp;#34;ubuntu mono&amp;#34; , &amp;#34;anonymous pro&amp;#34; , &amp;#34;droid sans mono&amp;#34; , &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;consolas&amp;#34; , &amp;#34;inconsolata&amp;#34; , &amp;#34;courier&amp;#34; , monospace , &amp;#34;pingfang sc&amp;#34; , &amp;#34;microsoft yahei&amp;#34; , sans-serif ; font-size: 14px ; background-color: rgb(246 , 248 , 250)&quot;&gt;mirror::ArtMethod* m = mirror::ArtMethod::FromReflectedMethod(soa, &lt;/span&gt;reflected_method)&lt;br&gt;(m即是backup_ArtMethod,代表被hook方法的ArtMethod对象，通过内存复制得来)&lt;br/&gt;&lt;span style=&quot;color: rgb(79 , 79 , 79) ; font-family: &amp;#34;source code pro&amp;#34; , &amp;#34;dejavu sans mono&amp;#34; , &amp;#34;ubuntu mono&amp;#34; , &amp;#34;anonymous pro&amp;#34; , &amp;#34;droid sans mono&amp;#34; , &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;consolas&amp;#34; , &amp;#34;inconsolata&amp;#34; , &amp;#34;courier&amp;#34; , monospace , &amp;#34;pingfang sc&amp;#34; , &amp;#34;microsoft yahei&amp;#34; , sans-serif ; font-size: 14px ; background-color: rgb(246 , 248 , 250)&quot;&gt;InvokeWithArgArray（m）调用原始方法&lt;/span&gt;&lt;br/&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1755" y="3050" width="745" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="BsxzwUNrjRmd50Y3IqEv-582" value="&lt;span style=&quot;color: rgb(0 , 102 , 102) ; font-family: &amp;#34;source code pro&amp;#34; , &amp;#34;dejavu sans mono&amp;#34; , &amp;#34;ubuntu mono&amp;#34; , &amp;#34;anonymous pro&amp;#34; , &amp;#34;droid sans mono&amp;#34; , &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;consolas&amp;#34; , &amp;#34;inconsolata&amp;#34; , &amp;#34;courier&amp;#34; , monospace , &amp;#34;pingfang sc&amp;#34; , &amp;#34;microsoft yahei&amp;#34; , sans-serif ; font-size: 14px ; white-space: pre ; background-color: rgb(246 , 248 , 250)&quot;&gt;&lt;b&gt;EnableXposedHook是xposed给ArtMethod加的函数&lt;/b&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1927.5" y="1860" width="385" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BsxzwUNrjRmd50Y3IqEv-583" value="&lt;pre style=&quot;color: rgb(8 , 8 , 8) ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;&lt;b&gt;art_quick_proxy_invoke_handler和artQuickProxyInvokeHandler是art虚拟机自带的方法：&lt;/b&gt;&lt;/pre&gt;&lt;pre style=&quot;color: rgb(8 , 8 , 8) ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;&lt;b&gt;但xposed对artQuickProxyInvokeHandler作了修改，使之调用InvokeXposedHandleHookedMethod这个xposed函数&lt;/b&gt;&lt;/pre&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1382" y="2340" width="672" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
